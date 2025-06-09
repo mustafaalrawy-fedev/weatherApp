@@ -73,7 +73,7 @@ const SplashScreen = ({ children }) => {
               WEATHER APP
             </motion.h1>
           </main>
-          <div className='fixed bottom-50 left-1/2 -translate-1/2 w-full h-1 flex justify-center items-center mt-5'>
+          <div className='w-full h-1 flex justify-center items-center mt-5'>
             <ProgressBar progress={'100'} />
           </div>
         </article>
